@@ -42,12 +42,12 @@ ifeq ($(ARCH),mips)
 	PKG_BUILD_DNSCRYPT:=linux-mips
 endif
 ifeq ($(ARCH),arm)
-	PKG_ARCH_DNSCRYPT:=linux_armv6
-	PKG_BUILD_DNSCRYPT:=linux-armv6
+	PKG_ARCH_DNSCRYPT:=linux_arm
+	PKG_BUILD_DNSCRYPT:=linux-arm
 endif
 ifeq ($(ARCH),aarch64)
-	PKG_ARCH_DNSCRYPT:=linux_armv8
-	PKG_BUILD_DNSCRYPT:=linux-armv8
+	PKG_ARCH_DNSCRYPT:=linux_arm64
+	PKG_BUILD_DNSCRYPT:=linux-arm64
 endif
 
 define Build/Prepare
