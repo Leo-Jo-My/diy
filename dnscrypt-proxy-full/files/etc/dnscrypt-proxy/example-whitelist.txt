@@ -15,8 +15,6 @@
 ## ads[0-9]*     | matches "ads" followed by one or more digits
 ## ads*.example* | *, ? and [] can be used anywhere, but prefixes/suffixes are faster
 
-tracker.debian.org
-
 
 
 ## Time-based rules
